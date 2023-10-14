@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Communication">
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:allowDividerBelow="false"
+            app:key="GonNFC"
+            app:summary="When an NFC connection is made, the glyph will react"
+            app:title="Glyph on NFC" />
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="GonBT"
+            app:summary="When a Bluetooth connection is made, the glyph will reach"
+            app:title="Glyph on Bluetooth" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Miscellaneous">
+
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="GonLogin"
+            app:summary="On a successful login, the glyph will react"
+            app:title="Glyph on Login" />
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="GonUSB"
+            app:summary="On a USB connection, the glyph will react"
+            app:title="Glyph on USB connection" />
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="GonDT"
+            app:summary="During data transfer, the glyph will react"
+            app:title="Glyph on Data Transfer" />
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="GonWC"
+            app:summary="During wireless charging, the glyph will react"
+            app:title="Glyph on Wireless Charging" />
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="GonShake"
+            app:summary="When the device is shaken, the glyph will react"
+            app:title="Glyph on Shake" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
